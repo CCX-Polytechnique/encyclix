@@ -1,0 +1,36 @@
+<?
+/******************
+Pour toute question s'adresse à cyprien.lecourt@polytechnique.edu
+(ajoutez votre mail si vous modifiez le code !)
+*******************/
+?>
+
+
+body {
+    font-family:Georgia, Arial;
+    color:#555555;
+    margin: 0 auto;
+    margin-top:20px;
+    width:800px;
+    padding:20px;
+    background-color:#eeeeee;
+    border:3px #cccccc dotted;
+}
+h1 {
+    text-align:center;
+}
+.listECX {
+    margin: 0 auto;
+    margin-top:40px;
+    align:center;
+    border:1px solid #aaaaaa;
+}
+
+.erreur {
+    font-size:9pt;
+    color:red;
+}
+.succes {
+    font-size:9pt;
+    color:green;
+}

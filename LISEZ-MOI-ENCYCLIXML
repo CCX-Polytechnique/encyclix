@@ -1,0 +1,29 @@
+EnCyCliXML permet d'écrire les encyclix, d'en génerer une image que l'on envoie par mail à la liste de diffusion.
+
+Comment ça marche ? C'est un fonctionnement modulaire, basé autour d'un fichier XML pour chaque numéro. Quel intérêt ? Cela permet de séparer contenu et forme : si l'on veut modifier la façon dont sont présnetées les infos, c'est très simple, et ça n'affecte pas la façon dont on les entre/modifie.
+
+1. Editeur XML
+--------------
+Repertoire : editeur/simpleEditeur.php
+
+Il permet d'éditer le fichier XML spécifié, à la main.
+
+2. Editeur (Graphique)
+----------------------
+Repertoire : editeur/editeur-dyn.php
+
+marche avec jquery et php.
+
+Principe : quand on modifie un champ, une requete AJAX est envoyée à updateXML.php qui prend en compte la modif.
+
+3. Rendu
+--------
+
+
+4. Generateur
+-------------
+But : génerer une image de l'encyclix. Il lance le script "CaptureECX" qui fait ça.
+
+
+5. Exemple de fichier XML utilisable
+------------------------------------

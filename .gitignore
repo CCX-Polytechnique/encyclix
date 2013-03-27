@@ -1,0 +1,6 @@
+*~
+*.backup
+*.bak
+.*.swp
+/encyclixes/ecx_[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+/generateur/captureECX

@@ -1,0 +1,118 @@
+body {
+    font-family:"Myriad Pro";
+    background:#efefef;
+    border:1px solid black;
+
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    text-align:center;
+}
+
+#trash {
+    z-index:1;
+    opacity:0.7;
+    position:fixed;
+    top:1px;
+    left:10px;
+    background-color:black;
+    color:white;
+    font-size:8pt;
+    padding:0px;
+    margin:0px;
+}
+input {
+    border:1px solid gray;
+    align:center;
+    width:min;
+    text-align:center;
+    font-size:10pt;
+}
+
+td {
+    vertical-align:top;
+}
+
+#basicprops p{
+    display:inline;
+}
+#edito {
+    border:1px black solid;
+    width:500px;
+    min-height:50px;
+    background:#aaefaa;
+}
+
+#annonces {
+    border:1px black solid;
+    width:500px;
+    min-height:200px;
+    background:#aaaaaa;
+}
+
+#web {
+    border:1px black solid;
+    width:500px;
+    min-height:100px;
+    background:#aaaaef;
+}
+
+#agenda {
+    border:1px black solid;
+    width:250px;
+    min-height:100px;
+    background:#efaaaa;
+}
+
+#agenda p{
+    display:inline;
+}
+
+#affiches {
+    border:1px black solid;
+    width:250px;
+    min-height:50px;
+    background:#aaefaa;
+}
+
+#pepite {
+    border:1px black solid;
+    width:250px;
+    min-height:50px;
+    background:#aaefaa;
+
+}
+.annonce {
+    border:2px black dotted;
+}
+
+.evenement {
+    border:1px black dotted;
+    margin-left:1em;
+    margin-right:1em;
+}
+
+.jour {
+    border:2px black dotted;
+    margin-bottom:1em;
+}
+
+.affiche {
+    border:1px black dotted;
+}
+
+
+
+#uploadArea {
+    position:relative;
+    margin:auto ;
+    width:100px;
+    height:100px;
+    background:red;
+}
+
+#listeFichiers {
+    text-align:left;
+    margin-left:10em;
+}

@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    height:100%;
+    margin:0px;
+    background-color: #ffffff;
+    font-family:Verdana;
+    font-size:11px;
+    table-layout:fixed;
+    //-webkit-font-smoothing: antialiased;
+}
+
+table,tr,td {
+    margin:0px;
+    border:0px;
+    border-spacing:0px;
+    padding:0px;
+    table-layout:fixed;
+}
+
+#conteneur {
+    position:absolute;
+    border:1px #cccccc solid;
+    width:650px;
+}
+
+
+/* AGENDA */
+
+#agenda {
+    padding: 15px 10px 10px 5px;
+    border-bottom:1px solid #cccccc;
+}
+#agenda tr {
+    //margin-top:10px;
+}
+#semaineLiturgique {
+    color:#333333;
+    margin-bottom:15px;
+}
+
+.jour {
+    font-size:21px;
+    color:#333333;
+    padding-bottom:8px;
+    padding-top:5px;
+}
+
+.heure {
+    color:#990000;
+    vertical-align:top;
+    width:36px;
+}
+
+.activite {
+    color:#333333;
+}
+
+
+.red {
+    background:url(IncludeImgs/red.png);
+    background-repeat:no-repeat;
+    width:16px;
+}
+
+.blue {
+    background:url(IncludeImgs/blue.png);
+    background-repeat:no-repeat;
+    width:16px;
+}
+
+.green {
+    background:url(IncludeImgs/green.png);
+    background-repeat:no-repeat;
+    width:16px;
+}
+
+.yellow {
+    background:url(IncludeImgs/yellow.png);
+    background-repeat:no-repeat;
+    width:16px;
+}
+.black {
+    background:url(IncludeImgs/black.png);
+    background-repeat:no-repeat;
+    width:16px;
+}
+
+
+/* EDITO */
+#edito {
+    text-align:justify;
+    padding: 10px 15px 10px 15px;
+    line-height:14px;
+    //bakground-color: #e9e9e9;
+    background:url(IncludeImgs/fond_edito.png) repeat-x;
+
+}
+
+#signature {
+    color:#4682b4;
+    padding-top:10px;
+    text-align:right;
+}
+
+#pepite {
+    width:200px;
+    height:200px;
+    font-size:13px;
+    background:url(IncludeImgs/bible.jpg);
+    background-repeat:no-repeat;
+    text-align:center;
+    color:#FFFFFF;
+}
+
+#pepite p {
+    padding:10px 10px 0px 10px;
+}
+.afficheGauche {
+    padding-top:10px;
+    padding-bottom:0px;
+    width:200px;
+}
+
+/* Table des annonces */
+#annonces {
+    background:url(IncludeImgs/fond_ann.jpg);
+    background-repeat:no-repeat;
+    border-top:solid 1px #dddddd;
+    width:450px;
+}
+/* Style de chaque annonce */
+.annonce {
+
+}
+/* titre des annonces */
+h3 {
+    font-size:25px;
+    text-decoration:none;
+    font-weight:normal;
+    padding-top:15px;
+    margin-top:00px;
+    color:#990000;
+    margin-bottom:0px;
+    padding-bottom:5px;
+    text-align:left;
+}
+
+
+.annonce a {
+    color:#4682b4;
+}
+.annonce a:hover {
+    color:#FF6600;
+}
+
+.longue
+{
+    padding:10px 10px 10px 20px;
+}
+.courte {
+    padding:10px 5px 10px 10px;
+}
+
+/* WEB */
+#titreWeb {
+    position:absolute;
+    margin-top:13px;
+    color:#4682b4;
+    font-size:18pt;
+}
+#surLeWeb {
+    background:url(IncludeImgs/fond_web.jpg);
+    background-repeat:no-repeat;
+    border-top-style:1px solid #dddddd;
+    padding:10px 10px 10px 10px;
+    width:450px;
+}
+#surLeWeb a {
+    color:#4682b4;
+    text-decoration:none;
+}
+#surLeWeb a:hover {
+    color:#FF6600;
+}
+
+
+#titreSectionWeb {
+    font-size:14px;
+    color:#ff9900;
+}
+
+
+
+/* BLOCS DE MISE EN PAGE */
+
+#haut {
+    height:170px;
+    width:650px;
+    /*background:url(IncludeImgs/surcouche.png);
+    background-repeat:no-repeat;
+    background-color:#ffffff;*/
+    vertical-align:top;
+}
+
+#dateHaut {
+    color:#FFFFFF;
+    text-align:right;
+    padding-right:20px;
+    padding-top:10px;
+}
+
+
+#colonneGauche {
+    width:200px;
+    vertical-align:top;
+    background-color:white;
+    border-right:1px solid #dddddd
+}
+
+#colonneDroite {
+    width:450px;
+    vertical-align:top;
+}
+
+
+.footer
+{
+padding-top:10px;
+padding-left:20px;
+padding-right:20px;
+font-size:11px;
+color:#999999;
+}
+
+.footer a, a:visited {
+    text-decoration:none;
+    color:#999999;
+}
+.footer a:hover {
+    text-decoration:underline;
+    color:#999999;
+}

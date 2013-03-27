@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<encyclix>
+    <numero>0</numero>
+    <date>2000-01-01</date>
+    <semaineliturgique>01e semaine du temps ordinaire</semaineliturgique>
+    <imagefond>fond.jpg</imagefond>
+    <agenda>
+        <jour nom="Lundi">
+            <evt>
+                <titre>Messe</titre>
+                <heure>18:30</heure>
+                <lieu>chapelle</lieu>
+            </evt>
+        </jour>
+        <jour nom="Mardi">
+            <evt>
+                <titre>Messe</titre>
+                <heure>18:30</heure>
+                <lieu>chapelle</lieu>
+            </evt>
+            <evt>
+                <titre>Groupe Apocalypse</titre>
+                <heure>19:15</heure>
+                <lieu>bibliotheque</lieu>
+            </evt>
+        </jour>
+        <jour nom="Mercredi">
+            <evt>
+                <titre>Magnan CCX</titre>
+                <heure>12:00</heure>
+                <lieu>aquarium</lieu>
+            </evt>
+        </jour>
+        <jour nom="Jeudi">
+            <evt>
+                <titre>Messe communautaire</titre>
+                <heure>19:00</heure>
+                <lieu>chapelle</lieu>
+            </evt>
+            <evt>
+                <titre>Repas communautaire</titre>
+                <heure>20:00</heure>
+                <lieu>jeangirette</lieu>
+            </evt>
+            <evt>
+                <titre>Conférence : Peut-on être chrétien et geek ? par C. Lecourt - Amphi Poincaré</titre>
+                <heure>21:00</heure>
+                <lieu></lieu>
+            </evt>
+        </jour>
+        <jour nom="Vendredi">
+        </jour>
+        <jour nom="Samedi">
+        </jour>
+        <jour nom="Dimanche">
+        </jour>
+    </agenda>
+
+    <edito>
+        <contenu>
+<![CDATA[
+<p>Chers amis,</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis consectetur enim sed vestibulum. Aliquam accumsan sodales nibh eu aliquam. Sed tempor nisi quis est dignissim nec sodales magna venenatis. Aliquam mollis consequat urna, vestibulum scelerisque urna iaculis a. Integer at augue sem, sed varius mauris. Nunc molestie fermentum justo in tincidunt. Duis rutrum pharetra lacus quis varius. Vestibulum at pharetra m at ante ac dui blandit bibendum. Nulla lacus leo, accumsan eu volutpat in, sagittis et ipsum. In porta ultricies sodales. Nulla facilisi. Nullam rhoncus lorem at turpis aliquet ut aliquet arcu viverra. Nullam interdum scelerisque diam ut interdum. Donec nec nibh ligula, at vulputate sem. Cras porta quam </p>
+]]>
+        </contenu>
+        <auteur>Moi Lui</auteur>
+    </edito>
+    <annonces>
+        <annonce id="1">
+            <type>large</type>
+            <titre>Annonce large 1</titre>
+            <contenu><![CDATA[
+                Ann1 <a>content</a> long
+            ]]></contenu>
+        </annonce>
+        <annonce id="2">
+            <type>demi</type>
+            <titre>Annonce 2</titre>
+            <contenu><![CDATA[
+                Ça, c'est bien
+            ]]></contenu>
+        </annonce>
+        <annonce id="3">
+            <type>demi</type>
+            <titre>Annonce 2</titre>
+            <contenu><![CDATA[
+                Ça, c'est bien
+            ]]></contenu>
+        </annonce>
+    </annonces>
+    <web>
+        <titre>Plein de choses</titre>
+        <contenu>
+<![CDATA[
+Plein de trucs ! par <a href="prout.html">ici</a>
+]]>
+        </contenu>
+    </web>
+    <affiches>
+        <affiche>pub.jpg</affiche>
+        <affiche>pub2.jpg</affiche>
+    </affiches>
+    <pepite>
+        <phrase>J'ai soif</phrase>
+        <ref>Jn 19:28</ref>
+    </pepite>
+</encyclix>
